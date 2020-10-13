@@ -1,6 +1,5 @@
 import random
 
-
 caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
 long = int(input('Introduzca la longitud de la contraseña:'))
