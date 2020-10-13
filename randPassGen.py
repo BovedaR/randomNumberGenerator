@@ -1,10 +1,7 @@
 import random
 
-char = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-largo = int(input('Introduzca la longitud de la contraseña:'))
-passw = ''
-for c in range(long):
-    password += random.choice(caracteres)
-print(passw)
-
+long = int(input('Introduzca la longitud de la contraseña:'))
+contraseña = ''.join([random.choice(caracteres) for _ in range(long)])
+print(contraseña)
